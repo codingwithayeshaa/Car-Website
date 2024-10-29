@@ -1,7 +1,7 @@
 export default function Home(){
     return(
          <div>
-         <h1 className="text-black  text-2xl px-60 py-6">Sell Your Cars on Pakwheels and Get the Best Price</h1>
+         <h1 className="text-white text-2xl px-60 py-6">Sell Your Cars on Pakwheels and Get the Best Price</h1>
         <div className="flex justify-between gap-4 p-26">
             <div className="flex flex-col items-center">
            <p className="bg-white text-2xl text-blue-800 px-16 py-2">Post Your Ad On Pakwheel</p>
