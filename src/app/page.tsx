@@ -2,9 +2,9 @@ import Image from "next/image";
 
 import Navbar from "./components/Navbar";
 
-import HeroSection from"./componentt/HeroSection";
+import HeroSection from"./components/HeroSection";
 
-import FeaturedCar from "./NewCar component/FeaturedCar";
+import FeaturedCar from "./components/FeaturedCar";
 
 import Link from "next/link";
 

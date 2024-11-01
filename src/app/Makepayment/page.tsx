@@ -7,14 +7,14 @@ export default function Form(){
        
        <div>
      {/* parent tag */}
-       <form className=" mt-8 flex gap-4 justify-center items-center flex-col border">
+       <form className="flex mt-4 gap-8 justify-center items-center flex-col border border-spacing-44">
         {/* children tag */}
-          <input type="name" className="p-2 rounded-2xl w-2/6 border border-slate-800" placeholder="Enter your name" />
-          <input type="Email" className=" p-2 rounded-2xl w-2/6 border border-slate-800" placeholder="Enter your Email Address" />
-          <input type="password" className="p-2 rounded-2xl w-2/6 border border-slate-800" placeholder="Enter your Card number" />
-          <input type="address" className="p-2 rounded-2xl w-2/6 border border-slate-800" placeholder="Enter your Address" />
+          <input type="name" className="p-2 w-2/6 border border-slate-800 mt-8" placeholder="Enter your name" />
+          <input type="Email" className=" p-2 w-2/6 border border-slate-800" placeholder="Enter your Email Address" />
+          <input type="password" className="p-2 w-2/6 border border-slate-800" placeholder="Enter your Card number" />
+          <input type="address" className="p-2 w-2/6 border border-slate-800" placeholder="Enter your Address" />
           
-          <Link href="/Thankyou"><button className="py-2 px-5 gap-4 rounded-lg bg-gray-600 text-white">Enter to confirm your order</button></Link>
+          <Link href="/Thankyou"><button className="border border-spacing-x-20 border-black text-black py-2 px-5 my-4">Enter to confirm your order</button></Link>
        </form>
        </div>
         </div>

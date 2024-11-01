@@ -2,10 +2,10 @@ export default function Home(){
     return(
       <section>
          <div>
-         <h1 className="text-black text-2xl px-60 py-6">Sell Your Cars on Pakwheels and Get the Best Price</h1>
+         <h1 className="text-black text-2xl font-semibold px-60 pt-4">Sell Your Cars on Pakwheels and Get the Best Price</h1>
         <div className="flex justify-center items-start space-x-8 mt-10">
             <div className="pr-3 border border-r-6 border-gray-600 p-8 w-4/12 ">
-           <h3 className=" text-xl  font-bold text-blue-800 mb-4">Post Your Ad On Pakwheel</h3>
+           <h3 className=" text-xl font-bold text-blue-800 mb-4">Post Your Ad On Pakwheel</h3>
              <ul className="text-black space-y-2">
                 <li>Post your Ad for free in 3 easy steps</li> 
                 <li>Get Genuine offers from Verified Buyers</li>
